@@ -104,7 +104,7 @@ namespace AddressBook.Controllers
         {
             var emptyContact = new Contact();
 
-              if(await TryUpdateModelAsync<Contact>(emptyContact,"contact",s=>s.)
+             
             if (id != contact.Id)
             {
                 return NotFound();
